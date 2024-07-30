@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Banner from "./Home/Banner";
+import ProjectsPage from "./Home/ProjectPage";
+
 
 export default function Home() {
   return (
  <main>
-  <h2>hllll</h2>
+  <Banner></Banner>
+  <ProjectsPage></ProjectsPage>
  </main>
   );
 }
